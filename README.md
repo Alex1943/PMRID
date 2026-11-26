@@ -2,6 +2,14 @@
 
 Code and dataset for ECCV20 paper [Practical Deep Raw Image Denoising on Mobile Devices](https://arxiv.org/abs/2010.06935).
 
+## DatasetGen single RAW comparison
+
+The independent four-channel DatasetGen comparison uses `run_raw.py` and
+`options/raw_pmrid_v1.yaml` with the original PyTorch PMRID network. Training,
+official ISP evaluation, GPU selection and output instructions are in
+[RAW_ADAPTATION.md](RAW_ADAPTATION.md). The original PMRID phone benchmark below
+remains a separate workflow.
+
 ## Dataset
 
 ### Downloads
